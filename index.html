@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario de acceso</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="tarjeta">
+    <h1>Formulario de acceso</h1>
+
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" placeholder="Escribe tu usuario" autocomplete="off">
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" placeholder="Escribe tu contraseña" autocomplete="off">
+
+    <button type="button" id="btnGuardar">Guardar datos</button>
+    <button type="button" id="btnMostrar">Mostrar datos guardados</button>
+    <button type="button" id="btnBorrar" class="btn-borrar">Borrar datos guardados</button>
+
+    <section class="resultado" aria-live="polite">
+      <h2>Resultado</h2>
+      <div id="resultado">
+        <p>Aquí aparecerán los resultados.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
